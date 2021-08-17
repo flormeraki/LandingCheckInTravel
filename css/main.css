@@ -1,0 +1,166 @@
+/*===============Propiedades Globales================*/
+
+
+
+:root {
+    --FuentePrincipal: 'Nanum Gothic', sans-serif;
+    --primario:#00A8A8;
+    --secundario:#0C6980;
+    --terciario:#F652A0;
+    --cuaternario:#BCECE0;
+    --negro: #000;
+    --blanco: #fff;
+    --gris: #3f3f3f;
+  
+
+}
+
+.navbar {
+    background-color: var(--primario);
+    color: var(--blanco);
+    font-family: var(--FuentePrincipal);
+}
+
+.titulo {
+    color: var(--blanco);
+   
+}
+
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    font-family: var(--FuentePrincipal);
+}
+
+
+/*===================MENU==========================*/
+
+ #menu a, button{
+     font-size: 18px !important;
+     font-weight: 600;
+    
+ }
+
+ #menu a{
+     color: var(--blanco);
+     
+ }
+
+ .btn-primary {
+     background-color: var(--secundario);
+     
+ }
+
+ .btn-primary:hover {
+     background-color: var(--gris);
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+
+
+/*=========================CONTACTOS BACKGROUND================================*/
+
+#bg-contactos{
+    position:relative;
+    top: -50px;
+    background-color: var(--primario);
+} 
+
+ #seccion-contacto{
+    background-color: var(--secundario);
+    min-height:500px;
+    position:relative;
+}
+
+/*=========================CONTACTOS FORMULARIO================================*/
+
+#contenedor-formulario{
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: var(--FuentePrincipal);
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+
+
+/*=========================FOOTER================================*/
+
+footer {
+    background-color: var(--primario);
+    min-height: 100px;;
+}
+
+
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width:1200px){
+    #intro {
+        width:90% !important;
+        margin:auto;
+    }
+  
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+   .wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+ 
+}
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+
+@media (max-width:768px) {
+
+
+    
+    
+    .wrapper-local {
+        width:90%;
+        margin:auto;
+        padding-top:50px;    
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    
+    #bg-contactos{
+        top: -90px;
+    }
+
+
+}
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width:100% !important;
+    }
+    #servicios-fila-1 {
+        width:100% !important;
+    }
+
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    
+}

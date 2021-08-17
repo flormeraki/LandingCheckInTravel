@@ -1,2 +1,2 @@
-# LandingCheekInTravel
-https://flormeraki.github.io/LandingCheekInTravel/
+# LandingCheckInTravel
+https://flormeraki.github.io/LandingCheckInTravel/
